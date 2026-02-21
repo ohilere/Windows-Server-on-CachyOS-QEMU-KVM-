@@ -38,4 +38,4 @@ Virtualization is rarely "plug and play." Here are the two biggest hurdles I enc
 
 - Shared Folder Struggle (VirtIO-FS): Windows Server doesn't natively speak VirtIO-FS without help.
 
-Detailed steps for these are located in the Troubleshooting Guide.
+Detailed steps for these are located in the [Troubleshooting Guide](https://github.com/ohilere/Windows-Server-on-CachyOS-QEMU-KVM-/blob/main/docs/troubleshooting.md).
