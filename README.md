@@ -34,8 +34,14 @@ sudo usermod -aG libvirt,kvm $USER
 Running Windows Server Virtual machine
 ![image alt](https://github.com/ohilere/Windows-Server-on-CachyOS-QEMU-KVM-/blob/131bc9cc1af621f8da0119f45339e925067266f6/Vm%20screenshot.png)
 
-Fileshare 
+### 3. Drivers
+In order to install all the drivers necessary to run windows server on qemu-kvm,Viortio drivers were downloaded from the official github repository [virtio-win-pkg-scripts](https://github.com/virtio-win/virtio-win-pkg-scripts/blob/master/README.md). Thereafter installed the virtio-win drivers and the virt-win-guest-tools
+![image alt](https://github.com/ohilere/Windows-Server-on-CachyOS-QEMU-KVM-/blob/769b303aa03b3c1b0dcaadec33de04bd55c8e7a3/Installing%20virtio%20screenshot.png)
+
+### 4.Fileshare 
+After completely setting up the vm, i wanted to also share a storage drive between the host and the virtual machine
 ![image alt](https://github.com/ohilere/Windows-Server-on-CachyOS-QEMU-KVM-/blob/131bc9cc1af621f8da0119f45339e925067266f6/Fileshare%20screenshot.png)
+
 ## 🚧 Challenges & Solutions
 Virtualization is rarely "plug and play." Here are the two biggest hurdles I encountered and cleared:
 
