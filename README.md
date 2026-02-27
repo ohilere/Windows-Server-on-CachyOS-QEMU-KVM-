@@ -31,6 +31,11 @@ In Linux, certain hardware features (like the KVM accelerator) are protected by 
 ```bash
 sudo usermod -aG libvirt,kvm $USER
 ```
+Running Windows Server Virtual machine
+![image alt](https://github.com/ohilere/Windows-Server-on-CachyOS-QEMU-KVM-/blob/131bc9cc1af621f8da0119f45339e925067266f6/Vm%20screenshot.png)
+
+Fileshare 
+![image alt](https://github.com/ohilere/Windows-Server-on-CachyOS-QEMU-KVM-/blob/131bc9cc1af621f8da0119f45339e925067266f6/Fileshare%20screenshot.png)
 ## 🚧 Challenges & Solutions
 Virtualization is rarely "plug and play." Here are the two biggest hurdles I encountered and cleared:
 
